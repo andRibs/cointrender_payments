@@ -1,0 +1,35 @@
+.statMain {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  height: 90px;
+  flex-direction: row;
+  justify-content: center;
+}
+.pairs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stat_sent {
+  text-align: right;
+}
+.stat_chart {
+  margin-left: 10px;
+}
+.stat_available {
+  text-align: left;
+}
+
+.donutchart-arcs-path {
+  opacity: 100;
+}
+.donutchart-innertext-value {
+  display: none;
+}
+
+.listHistory {
+  height: 200px;
+  overflow-y: auto;
+}

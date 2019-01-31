@@ -1,0 +1,72 @@
+input {
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid lightGrey;
+  line-height: 30px;
+  width: 100%;
+}
+
+.sendForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 540px;
+}
+
+.formElement {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  height: 100px;
+}
+
+.formElement input:focus {
+  caret-color: #4b3cfa;
+  outline: none;
+  border-bottom: 2px solid #4b3cfa;
+}
+
+.errorClass {
+  border-bottom: 2px solid red;
+}
+
+.errorText {
+  color: red;
+}
+
+.buttonSend {
+  margin-top: 100px;
+  font-size: 16px;
+  padding: 12px;
+  color: white;
+  border-radius: 75px;
+  background-color: #4b3cfa;
+}
+
+.buttonSend:hover {
+  opacity: 0.8;
+}
+
+.input-pound {
+  position: relative;
+  width: 95%;
+}
+
+.input-pound:placeholder {
+  padding-left: 20px;
+}
+.input-pound.left input {
+  padding-left: 18px;
+}
+
+.input-pound:before {
+  position: absolute;
+  top: 4px;
+  font-size: 20px;
+  content: "£";
+}
+
+label {
+  color: #393d52;
+  font: 16px;
+}

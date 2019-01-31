@@ -1,0 +1,23 @@
+p {
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.left {
+  width: 400px;
+  display: inline-block;
+  padding-right: 5em;
+}
+.right {
+  width: 400px;
+  display: inline-block;
+  padding-left: 5em;
+  border-left: 1px solid lightgray;
+}
